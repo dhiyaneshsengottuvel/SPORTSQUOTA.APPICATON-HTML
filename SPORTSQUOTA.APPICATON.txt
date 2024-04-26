@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<h1>M.KUMARASAMY COLLEGE OF ENGINEERING</h2>
+<h2>Kabaddi Players Registration Form</h2>
+<h3>(Sports quota)</h3>
+</center>
+<style>
+table,tr,td{padding:10px;
+border:1px solid black;
+}
+</style>
+<table><tr><td>
+<form>
+  <label for="pname">Player Name:</label>
+  <input type="text" id="pname" name="pname"><br><br>
+  
+  <label for="fname">Father Name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <lable for="Dbirth">Date of Birth:</lable>
+  <input type="text"id="dbirth"name="dbirth"><br><br>
+   <label for="pname">Blood group:</label>
+  <input type="text" id="pname" name="pname"><br><br>
+  
+  <lable for="gender">Gender :</lable>
+  <input type="radio"id ="Male" name ="gender">
+  <label for ="male">Male</label>
+ <input type="radio"id ="Feale" name ="gender">
+  <label for ="Female">Female</label><br><br>
+   <label for="pname">Height(cm):</label>
+  <input type="text" id="pname" name="pname"><br><br>
+    <label for="pname">Weight(kg):</label>
+  <input type="text" id="name="pname"><br><br>
+  <lable for="player status">Player status :</lable>
+  <input type="radio"id ="Raider" name ="gender">
+  <label for ="male">Raider</label>
+  <input type="radio"id ="Defender" name ="gender">
+  <label for ="male">Defender</label>
+  <input type="radio"id ="All-rounder" name ="gender">
+  <label for ="male">All-rounder</label><br><br>
+   <label for="pname">Mobile no:</label>
+  <input type="text" id="pname" name="pname"><br><br>
+   <label for="pname">Parent's mobile no:</label>
+  <input type="text" id="pname" name="pname"><br><br>
+   <label for="pname">What's app no:</label>
+  <input type="text" id="pname" name="pname"><br><br>
+    <label for="pname">email id:</label>
+  <input type="text" id="pname" name="pname"><br><br>
+  <label for="pname">Address:</label>
+  <input type="text" id="pname" name="pname"><br><br>
+  <center><input type="submit" value="Submit">
+  </td></tr>
+  </table>
+</form>
+</body>
+</html>
